@@ -5,7 +5,10 @@ with open(sys.argv[1]) as file:
     #caracteres distintos
     caract_distintos = len(set(texto))
 
-
+    #elimina "," del texto
+    texto=texto.replace(","," ")
+    #elimina "." del texto
+    texto=texto.replace("."," ")
 
     #separando palabras
     arreglo_texto=texto.split(" ")
