@@ -1,5 +1,12 @@
 import sys
 
+
+# validacion del ingreso del archivo como argumento
+if len(sys.argv) <2:
+    print('Por favor, ingresa un archivo como argumento')
+    exit()
+
+
 with open(sys.argv[1]) as file:
     texto=file.read()
     #caracteres distintos
