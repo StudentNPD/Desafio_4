@@ -41,4 +41,3 @@ Aplicando métodos apropiados para la estructura de datos entregada se edita la 
 - [Natalia Peña](https://github.com/StudentNPD)
 - [Iván Unquén](https://github.com/IvanUnquen)
 - [Camila Chavez](https://github.com/Camilachavez630)
-- error
