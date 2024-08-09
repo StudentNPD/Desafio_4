@@ -34,3 +34,9 @@ Aplicando métodos apropiados para la estructura de datos entregada se edita la 
 
 
 ------------------------------------------
+## Colaboradores
+- [Francisco Colomer](https://github.com/Cy5k0) 
+- [Francisco Monroy](https://github.com/fmonroy75)
+- [Natalia Peña](https://github.com/StudentNPD)
+- [Iván Unquén](https://github.com/IvanUnquen)
+- [Camila Chavez](https://github.com/Camilachavez630)
