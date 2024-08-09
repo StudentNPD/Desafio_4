@@ -1,50 +1,44 @@
-#Desafío 4 Modulo 3
+# Desafío - Estructuras de datos y funciones (I)
+-------------------------------------
+## Conversiones
+Se crea un archivo conversiones.py con una estructura de datos apropiada que permite ingresar tasas de conversión. Las distintas tasas de conversión se ingresan mediante sys.argv en el siguiente orden: Sol, Peso Argentino, Dólar Americano.
 
-## Actividad 1 - Conversiones
-Crear un archivo conversiones.py y una estructura de datos apropiada que permita
-ingresar tasas de conversión. Las distintas tasas de conversión se deben ingresar
-mediante sys.argv en el siguiente orden: Sol, Peso Argentino, Dólar Americano.
-
-Por ejemplo, considere las siguientes tasas de conversión de Peso Chileno:
-a Sol peruano: 0.0046
-a Peso Argentino: 0.093
-a Dólar Americano: 0.00013
-
-Además ingrese un 4to argumento que sea el valor en peso chileno a convertir. El programa
-debe devolver el valor en peso chileno convertido en las 3 divisas ingresadas.
-
-## Instrucciones para Ejecutar el Proyecto
-python conversiones.py 0.0046 0.093 0.0013 10000
-
-## Respuesta esperada:
-Los 10000 pesos equivalen a:
-46.0 Soles
-930.0 Pesos Argentinos
-13.0 Dólares
-
-
-## Actividad 2 - Contador de palabras
-Genere un archivo llamado word_count.py que importe un texto a Python y realice
-las siguientes tareas:
- Utilizando una estructura de datos apropiada, cuente la cantidad de
-caracteres distintos que componen un texto.
- Cuente el número de palabras distintas que componen el texto ingresado.
-
-## Instrucciones para Ejecutar el Proyecto
-python word_count.py lorem_ipsum.txt
-
-## Respuesta esperada:
-El número de caracteres distintos es: 40
-El número de palabras distintas es: 243
+Se consideran las siguientes tasas de conversión de Peso Chileno:
+● a Sol peruano: 0.0046
+● a Peso Argentino: 0.093
+● a Dólar Americano: 0.00013
+Además se ingresa un 4° argumento que es el valor en peso chileno a convertir. El programa devuelve el valor en peso chileno convertido en las 3 divisas ingresadas.
 
 
 
-### Prerrequisitos o Dependencias
-Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
+----------------------------------------
+## Word Count
 
-Sistema Operativo  Windows 10, linux, Mac
-Lenguaje de programación Python 3.12.4
+Se crea un script llamdo word_count.py que importa un texto a Python y realiza las siguientes tareas:
+● Utilizando una estructura de datos apropiada, cuenta la cantidad de caracteres distintos que componen un texto.
+● Cuenta el número de palabras distintas que componen el texto ingresado.
+Para separar un texto por espacios se utiliza el método .split("")
+
+---------------------------------------
+## Recordatorios
+
+Se desarrolla el archivo recordatorios.py que incluye una serie de eventos que
+quieren ser recordados.. El formato de estos recordatorios son una fecha (año-mes-día), una hora y una descripción del evento.
+
+Aplicando métodos apropiados para la estructura de datos entregada se edita la lista de recordatorios de la siguiente manera:
+
+1. Se Agrega un evento el 2 de Febrero de 2021 a las 6 de la mañana para “Empezar el Año”.
+2. Se corrige un error, ya que el 15 de Julio no es feriado. Se edita de tal manera que sea el 16 de Julio.
+3. Toca trabajar el día del trabajo. Se elimina el evento del día del trabajo.
+4. Se agrega una cena de Navidad y de Año Nuevo. Ambas a las 22 hrs
 
 
-### Autor
-Francisco Monroy
+------------------------------------------
+
+## Colaboradores
+- [Francisco Colomer](https://github.com/Cy5k0) 
+- [Francisco Monroy](https://github.com/fmonroy75)
+- [Natalia Peña](https://github.com/StudentNPD)
+- [Iván Unquén](https://github.com/IvanUnquen)
+- [Camila Chavez](https://github.com/Camilachavez630)
+- error
