@@ -3,7 +3,7 @@
 ## Conversiones
 Se crea un archivo conversiones.py con una estructura de datos apropiada que permite ingresar tasas de conversión. Las distintas tasas de conversión se ingresan mediante sys.argv en el siguiente orden: Sol, Peso Argentino, Dólar Americano.
 
-Se consideran las siguientes tasas de conversión de Peso Chileno:
+Se consideran las siguientes tasas de conversión de Peso Chileno: 
 ● a Sol peruano: 0.0046
 ● a Peso Argentino: 0.093
 ● a Dólar Americano: 0.00013
